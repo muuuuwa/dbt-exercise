@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_stripe__payments
+    description: stripe payments model. hogehoge
+    columns:
+      - name: payment_id
+        description: primary key
+        tests:
+          - unique
+          - not_null
