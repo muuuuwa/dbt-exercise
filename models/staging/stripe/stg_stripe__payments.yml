@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: stg_stripe__payments
-    description: "{{ doc('stripe_payment') }}"
+    description: "{{ doc('stripe_payments') }}"
     columns:
       - name: payment_id
         description: primary key
