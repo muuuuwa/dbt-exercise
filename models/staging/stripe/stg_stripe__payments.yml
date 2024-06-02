@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: stg_stripe__payments
-    description: stripe payments model. hogehoge
+    description: "{{ doc('stripe_payment') }}"
     columns:
       - name: payment_id
         description: primary key
