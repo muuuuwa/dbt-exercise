@@ -1,0 +1,1 @@
+select * from {{ ref('employees') }} limit 5
